@@ -152,4 +152,6 @@ A continuacion se encuentran capturas del funcionamiento de la aplicacion ya des
 
 ### Video del Despliegue en AWS
 
-https://github.com/user-attachments/assets/90dd0e4a-b0eb-48ca-bc40-518c480534f4
+Aqui esta el video para descargar:
+
+![video](src/main/resources/imagenesReadMe/VideoDespliegueAWS.mp4)
