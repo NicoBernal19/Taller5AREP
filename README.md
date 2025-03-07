@@ -80,25 +80,25 @@ Este diseño sigue una arquitectura MVC (Modelo-Vista-Controlador) y usa Spring 
 
 Debemos crear una instancia en AWS. Una vez ya tengamos esto vamos a acceder a la maquina virtual, para hacerlo yo use PuTTy.
 
-![image](https://github.com/user-attachments/assets/65bed5ad-ac35-494c-a382-1c1385376662)
-
-![image](https://github.com/user-attachments/assets/dcb77ee7-6c4f-457c-b24d-c48f6c439eaa)
-
 Dentro de la maquina virtual vamos a instalar MySQL:
 
-![image](https://github.com/user-attachments/assets/811a0bd8-7642-4f65-bcd4-de1734e58ce6)
+![imagen](src/main/resources/imagenesReadMe/1.jpg)
 
-![image](https://github.com/user-attachments/assets/f2416879-ee5a-4ec5-904f-9f38389be57a)
+![imagen](src/main/resources/imagenesReadMe/2.jpg)
 
 Luego debemos iniciar y habilitar el servicio:
 
-![image](https://github.com/user-attachments/assets/b4cb296c-3998-48c2-b5b5-79f5a5afbced)
+![imagen](src/main/resources/imagenesReadMe/3.jpg)
 
 Luego realizamos toda la configuracion lo que incluye crear una nueva clave entre otras cosas:
 
+![imagen](src/main/resources/imagenesReadMe/4.jpg)
+
+![imagen](src/main/resources/imagenesReadMe/5.jpg)
+
 Si es necesario (en mi caso lo fue) debemos ir al security group de la instancia de AWS que estamos utilizando y debemos ajustar las reglas de entrada para que permita navegar correctamente por el servidor.
 
-![image](https://github.com/user-attachments/assets/6975312b-5c49-40fa-8d56-5f889ba73812)
+![imagen](src/main/resources/imagenesReadMe/6.jpg)
 
 Una vez hecho eso ya la base de datos quedo correctamente desplegada.
 
@@ -106,29 +106,49 @@ Una vez hecho eso ya la base de datos quedo correctamente desplegada.
 
 Debemos crear una instancia en AWS. Una vez ya tengamos esto vamos a acceder a la maquina virtual, para hacerlo yo use PuTTy.
 
-![image](https://github.com/user-attachments/assets/65bed5ad-ac35-494c-a382-1c1385376662)
-
-![image](https://github.com/user-attachments/assets/dcb77ee7-6c4f-457c-b24d-c48f6c439eaa)
-
 Dentro de la maquina virtual vamos a instalar Java, en este caso el 17:
 
-![image](https://github.com/user-attachments/assets/811a0bd8-7642-4f65-bcd4-de1734e58ce6)
+![imagen](src/main/resources/imagenesReadMe/7.jpg)
 
-![image](https://github.com/user-attachments/assets/f2416879-ee5a-4ec5-904f-9f38389be57a)
+![imagen](src/main/resources/imagenesReadMe/8.jpg)
+
+![imagen](src/main/resources/imagenesReadMe/9.jpg)
 
 Luego debemos subir el .jar de la aplicacion a la maquina virtual, para eso vamos a usar una consola y usamos el siguiente comando:
 
-![image](https://github.com/user-attachments/assets/b4cb296c-3998-48c2-b5b5-79f5a5afbced)
+![imagen](src/main/resources/imagenesReadMe/10.jpg)
 
 Una vez ya tenemos el .jar en la maquina, solo debemos ejecutarlo, para que la aplicacion comienze a correr.
 
+![imagen](src/main/resources/imagenesReadMe/11.jpg)
+
 Si es necesario (en mi caso lo fue) debemos ir al security group de la instancia de AWS que estamos utilizando y debemos ajustar las reglas de entrada para que permita navegar correctamente por el servidor.
 
-![image](https://github.com/user-attachments/assets/6975312b-5c49-40fa-8d56-5f889ba73812)
+![imagen](src/main/resources/imagenesReadMe/12.jpg)
+
+![imagen](src/main/resources/imagenesReadMe/13.jpg)
+
+![imagen](src/main/resources/imagenesReadMe/14.jpg)
 
 Una vez hecho eso ya la aplicacion quedo correctamente desplegada, ademas esta ya quedo conectada a la base de datos gracias al archivo de application.properties
 
-A continuacion se encuentran capturas del funcionamiento de la aplicacion ya desplegada:
+A continuacion se encuentran capturas del funcionamiento de la aplicacion ya desplegada y las funcionalidades CRUD ofrecidas:
+
+1. Podemos ver la url que indica que el despliegue en aws fue exitoso:
+
+![imagen](src/main/resources/imagenesReadMe/15.jpg)
+
+2. Formulario para añadir una nueva propiedad:
+
+![imagen](src/main/resources/imagenesReadMe/16.jpg)
+
+3. Formulario para realizar la busqueda por filtros:
+
+![imagen](src/main/resources/imagenesReadMe/17.jpg)
+
+4. Lista de propiedades, y tambien los botones de editar y eliminar propiedades:
+
+![imagen](src/main/resources/imagenesReadMe/18.jpg)
 
 ### Video del Despliegue en AWS
 
