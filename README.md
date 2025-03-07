@@ -156,4 +156,4 @@ https://github.com/user-attachments/assets/eeac765e-61dd-4010-8d64-510df90099b8
 
 Aqui esta el video para descargar:
 
-![video](src/main/resources/imagenesReadMe/Despliegueaws-Trim3.mp4)
+![video](src/main/resources/imagenesReadMe/AWS.mp4)
